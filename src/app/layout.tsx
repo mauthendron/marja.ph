@@ -18,8 +18,8 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body className={manrope.className}>
-				{children}
 				<Header />
+				{children}
 			</body>
 		</html>
 	)

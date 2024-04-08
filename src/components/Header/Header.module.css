@@ -5,16 +5,15 @@
 }
 
 .logo {
-	width: 134px;
-	font-size: 36px;
+	font-size: 40px;
 	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	margin-top: 30px;
 }
 
 .navbar {
 	display: flex;
-	padding-left: 318px;
+	padding-left: 257px;
 }
 
 .navbar > ul {
@@ -42,6 +41,10 @@
 	transition: 0.4s all;
 }
 
+.active {
+	background: var(--dark-12);
+}
+
 .navbar ul > li:first-child {
 	border-top-left-radius: 10px;
 }
@@ -51,5 +54,5 @@
 }
 
 .line {
-	border-bottom: 1px solid var(--dark-12);
+	border-bottom: 2px solid var(--dark-12);
 }

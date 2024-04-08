@@ -1,0 +1,50 @@
+.container {
+	width: 1596px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about > h2 {
+	color: var(--grey-40);
+	font-size: 22px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 80px;
+}
+
+.about > h1 {
+	color: var(--grey-90);
+	font-size: 80px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.work > span {
+	display: inline-block;
+	color: var(--absolute-white);
+	font-size: 58px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 80px;
+}
+
+.work_descr {
+	color: var(--absolute-white);
+	font-size: 58px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.contact {
+	margin-left: 10px;
+}
+
+.img {
+	margin-left: 40px;
+}

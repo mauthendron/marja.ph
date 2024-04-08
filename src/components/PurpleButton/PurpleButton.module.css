@@ -1,0 +1,9 @@
+.purple {
+	width: 130px;
+	height: 66px;
+	border-radius: 100px;
+	box-shadow: 4px 4px 17.4px 0px rgba(255, 255, 255, 0.28) inset;
+	background: var(--purple-55);
+	border: none;
+	cursor: pointer;
+}

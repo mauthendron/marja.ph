@@ -1,0 +1,31 @@
+.slider {
+	height: 80px;
+	border-top: 1px solid var(--dark-12);
+	border-bottom: 1px solid var(--dark-12);
+	background-color: var(--dark-06);
+}
+
+.items {
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	animation: ticker 5s linear infinite;
+}
+
+.descr {
+	color: var(--purple-80);
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 150%;
+}
+
+@keyframes ticker {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+}
